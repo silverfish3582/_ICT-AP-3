@@ -1,0 +1,54 @@
+/* General Reset */
+body {
+    background-color: rgb(139, 211, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+header {
+    background-color: rgb(83, 83, 192);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a {
+    color: rgb(32, 37, 92);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: rgb(43, 49, 136);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    color: rgb(32, 37, 92);
+}
+
+/* Centered Layout for Picture and Bio */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+/* Image Styling */
+.photo {
+    margin-bottom: 20px;
+}
+
+/* Bio Styling */
+.bio {
+    text-align: left;
+    max-width: 600px;
+    line-height: 1.6;
+}
